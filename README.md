@@ -8,14 +8,14 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ```
 
 # Bindings
-`␣pv` - :Ex - exit editor.
+- `␣pv` - :Ex - close editor.
 
 ## Telescope
-`␣pf` - project find.
-`␣ps` - project search (w grep).
+- `␣pf` - project find.
+- `␣ps` - project search (w grep).
 
 ## Harpoon
-`␣a` - add file.
-`ctrl + e` - quick menu.
-
-`ctrl + t` and `ctrl + h` - move back and forth.
+- `␣a` - add file.
+- `ctrl + e` - quick menu.
+- `ctrl + t` - next file.
+- `ctrl + h` - previous file.
