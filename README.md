@@ -1,21 +1,23 @@
 .config files from my personal computer.
 
-# Nvim 
+## Nvim 
 ### For the future me: don't forget to
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-## Bindings
-- `␣pv` - :Ex - close editor.
+### Bindings
+- `␣pv`: :Ex - close editor.
+- `␣u`: toggle undotree.
+- `␣gs`: toggle fugitive (git status).
 
-### Telescope
-- `␣pf` - project find.
-- `␣ps` - project search (w grep).
+#### Telescope
+- `␣pf`: project find.
+- `␣ps`: project search (w grep).
 
-### Harpoon
-- `␣a` - add file.
-- `ctrl + e` - quick menu.
-- `ctrl + t` - next file.
-- `ctrl + h` - previous file.
+#### Harpoon
+- `␣a`: add file.
+- `ctrl + e`: quick menu.
+- `ctrl + t`: next file.
+- `ctrl + h`: previous file.
