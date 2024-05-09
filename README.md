@@ -16,6 +16,6 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 ## Harpoon
 `␣a` - add file.
-`ctrl + e` - quick menu..
+`ctrl + e` - quick menu.
 
 `ctrl + t` and `ctrl + h` - move back and forth.
