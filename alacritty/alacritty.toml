@@ -1,3 +1,7 @@
 import = [
-    "~/.config/alacritty/themes/remedy_dark.toml",
+    "~/.config/alacritty/themes/alacritty_0_12.toml",
 ]
+
+[font]
+normal = { family = "JetBrainsMono NFM", style = "semibold" }
+size = 9.0
