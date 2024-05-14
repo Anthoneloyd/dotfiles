@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/andres/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/andres/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/andres/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
