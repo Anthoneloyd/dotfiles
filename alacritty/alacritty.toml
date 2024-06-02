@@ -3,5 +3,5 @@ import = [
 ]
 
 [font]
-normal = { family = "JetBrainsMono NFM", style = "semibold" }
+normal = { family = "JetBrainsMono NFM", style = "bold" }
 size = 9.0
