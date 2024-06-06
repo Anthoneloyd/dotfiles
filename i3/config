@@ -34,9 +34,6 @@ set $mod Mod4
 # otro polybar
 # exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-# compositor
-exec_always --no-startup-id xcompmgr
-
 # keyboard layouts
 exec_always --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle' -layout us,latam"
 
@@ -376,7 +373,7 @@ for_window [class=TelegramDesktop] focus
 #exec_always --no-startup-id picom -b
 #
 # for custom config:
-#exec_always --no-startup-id picom --config  ~/.config/picom.conf
+exec_always --no-startup-id picom --config  ~/.config/picom.conf
 
 #############################################
 # autostart applications/services on login: #
