@@ -7,7 +7,7 @@
     "height": 30,
 
     "modules-left": [
-        "custom/launcher",
+        //"custom/launcher",
         "sway/workspaces",
         "sway/mode",
     ],
@@ -126,6 +126,7 @@
 
     "sway/workspaces": {
         "disable-scroll": false,
+        "disable-scroll-wraparound": true,
         "disable-markup" : false,
         "all-outputs": true,
         "format": "  {icon}  ",

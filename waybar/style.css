@@ -48,8 +48,7 @@ Arc-Dark Color Scheme
     border-radius: 0;
     min-height: 0;
     margin: 1px;
-    padding: 0;
-    padding-top: 0px;
+    padding: 0px;
 }
 
 /* The whole bar */
@@ -58,7 +57,7 @@ Arc-Dark Color Scheme
     color: #bebebe;
     background-color: @base1;
     font-family: UbuntuMono;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /* Every modules */
@@ -76,7 +75,7 @@ Arc-Dark Color Scheme
 #tray,
 #idle_inhibitor,
 #custom-PBPbattery {
-    padding:0.5rem 0.6rem;
+    padding:0.2rem 0.6rem;
     margin: 1px 0px;
 }
 
@@ -106,6 +105,10 @@ Arc-Dark Color Scheme
 #battery.critical.discharging {
     animation-name: blink-critical;
     animation-duration: 2s;
+}
+
+#clock {
+    font-weight: bold;
 }
 
 #cpu.warning {
@@ -144,10 +147,6 @@ Arc-Dark Color Scheme
 
 #network.disconnected {
     color: orange;
-}
-
-#pulseaudio {
-    padding-top:6px;
 }
 
 #pulseaudio.muted {
