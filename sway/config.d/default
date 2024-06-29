@@ -219,7 +219,7 @@ bindsym $mod+r mode "resize"
 # App shortcuts
 #
     bindsym $mod+n exec thunar
-    bindsym $mod+w exec vivaldi
+    bindsym $mod+w exec firefox
 #
 # Screenshots
 #
