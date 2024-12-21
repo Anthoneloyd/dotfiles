@@ -1,9 +1,0 @@
-
-[font]
-normal = { family = "JetBrainsMono NFM", style = "bold" }
-size = 9.0
-
-[general]
-import = [
-    "~/.config/alacritty/themes/alacritty_0_12.toml",
-]
