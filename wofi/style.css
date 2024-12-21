@@ -1,0 +1,102 @@
+@define-color highlight rgba(82, 148, 226, 1);
+
+#window {
+    background-color: rgba(0.4, 0.4, 0.4, 0.7);
+    border: 1px solid rgba(82, 148, 266, 0.9);
+    margin-right: 200px;
+}
+ 
+/*
+#outer-box {
+    background-color: rgba(20, 20,20, 0.7);
+    border: 1px solid rgba(82, 148, 266, 0.9);
+}*/
+ 
+#input {
+    color: #999999;
+    border: 1px solid rgba(100, 100, 100, 1);
+    border-radius: 20px; 
+ 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ 
+    box-shadow: none;
+    background-color: rgba(0.7, 0.7, 0.7, 0.7);
+}
+ 
+#input:focus {
+    color: #999999;
+    border: 1px solid rgba(82, 148, 266, 1);
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ 
+    box-shadow: none;
+    background-color: rgba(0.5, 0.5, 0.5, 0.7);
+}
+ 
+#entry {
+    font-family: UbuntuMono;
+    border-radius: 20px;
+    margin: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+ 
+#entry:focus {
+    background: rgba(82, 148, 266, 0.9);
+    border: 1px solid rgba(82, 148, 266, 1);
+}
+ 
+/* Old */ 
+/*/**/
+/*Arc-Dark Color Scheme*/
+/**/
+/*@define-color highlight #5294e2;*/
+/*@define-color base1  #404552;*/
+/*@define-color base2 #40455;*/
+/*@define-color base3  #4b5160;*/
+/**/
+/**{*/
+/*    font-family: UbuntuMono;*/
+/*}*/
+/**/
+/*window {*/
+/*    border: 1px solid @highlight;*/
+/*}*/
+/**/
+/*#input {*/
+/*    margin-bottom: 15px;*/
+/*    padding:3px;*/
+/*    border-radius: 5px;*/
+/*    border:none;*/
+/*    color: white;*/
+/*}*/
+/**/
+/*#inner-box {*/
+/*    background-color: @base3;*/
+/*}*/
+/**/
+/*#outer-box {*/
+/*    margin: 5px;*/
+/*    padding:15px;*/
+/*    background-color: @base2;*/
+/*}*/
+/**/
+/*#text {*/
+/*    padding: 5px;*/
+/*    color: white;*/
+/*}*/
+/**/
+/*#entry:nth-child(even) {*/
+/*    background-color: @base1;*/
+/*}*/
+/**/
+/*#entry:selected {*/
+/*    background-color: @highlight;*/
+/*}*/
