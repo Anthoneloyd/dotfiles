@@ -31,7 +31,7 @@
 	// CUSTOM. USES DDCCIUTILS
 	"custom/backlight",
 
-        //"battery",
+        "battery",
         //"custom/PBPbattery",
         "tray",
         //"custom/weather",
